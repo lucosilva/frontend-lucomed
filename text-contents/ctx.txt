@@ -1,0 +1,13 @@
+- Banner
+h1: "Médicos Especialistas Ao Alcance de Todos"
+h2: "Preços acessíveis e sem burocracia."
+botão CTA: "agendar consulta"
+-----
+- Lista de botões no Menu (banner)
+*Covid-19
+*Consultas
+*Exames
+*Ajuda (ficará flutuando pelo canto direito inferior)
+-----
+
+
