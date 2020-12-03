@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;    
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: inherit;
+  } 
+  ul, li{
+    list-style: none;
+  }
+
+.color-Theme1{
+    color: #762EA6 !important;
+}
+.bg-Theme1{
+    background-color: #762EA6 !important;
+}
+
+.color-Theme2{
+    color: #A993BF !important;
+}
+.bg-Theme2{
+    background-color: #A993BF !important;
+}
+
+.color-Theme3{
+    color: #8836BF !important;
+}
+.bg-Theme3{
+    background-color: #8836BF !important;
+}
+
+.btn-theme{
+    width: 268px !important;
+    height: 55px !important;
+    border-radius: 12px !important;
+    border: 1px solid #762EA6 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    transition: .5s ease-in;
+}
+.btn-theme:hover{
+    background-color: #A993BF !important;
+}
+.btn-card-theme{
+    width: 228px !important;
+    height: 45px !important;
+    border-radius: 30px !important;
+    border: 1px solid #762EA6 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}

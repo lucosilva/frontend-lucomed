@@ -1,0 +1,82 @@
+main{
+    width: 100%;    
+}
+
+
+/* header */
+
+header{
+    width: 100%;
+    height: 205px;   
+    position: fixed; 
+}
+header > div {
+    display: flex;
+    height: 100%;
+}
+header nav {
+    width: 100%;    
+    display: flex;
+    align-items: center;    
+}
+header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+header nav ul span{
+    width: 3px;
+    height: 40px;
+    background: #ffffff;
+    margin-right: 42px;
+}
+
+header nav ul li{
+    margin-right: 80px;
+}
+header nav ul li a{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+header .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* header */
+
+/* main banner */
+.main-banner{
+    width: 100%;
+    height: 717px;
+    max-height: 817px;
+
+    display: flex;
+    align-items: center;
+
+    background-image: url(../assets/banner/undraw_medicine_b1ol.svg) !important;
+    background-position: left bottom !important;
+    background-size: 830px !important;
+    background-repeat: no-repeat !important;
+}
+.main-banner .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.main-banner .container > div{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.main-banner h1{
+    font-size: 48px;
+    font-weight: 400;
+    text-align: end;
+    margin-bottom: 50px;
+}
+/* main banner */
