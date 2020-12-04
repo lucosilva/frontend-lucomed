@@ -48,6 +48,7 @@ header .logo{
 
 /* header */
 
+
 /* main banner */
 .main-banner{
     width: 100%;
@@ -80,3 +81,210 @@ header .logo{
     margin-bottom: 50px;
 }
 /* main banner */
+
+
+/* image-right-with-text-left */
+.image-right-with-text-left{
+    height: 535px;
+    width: 100%;
+    padding: 70px 0;
+    border: 1px solid #762EA6;
+}
+.image-right-with-text-left .container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-right-with-text-left .image{
+    width: 50%;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-right-with-text-left .image img{
+    width: 450px;   
+}
+.image-right-with-text-left .text{
+    width: 50%;
+    margin-right: 10px;
+}
+.image-right-with-text-left .text h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 29px;
+}
+.image-right-with-text-left .text h3{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+/* image-right-with-text-left */
+
+
+
+/* image-left-with-text-right */
+.image-left-with-text-right{
+    height: 535px;
+    width: 100%;
+    padding: 70px 0;
+    border: 1px solid #762EA6;
+}
+
+.image-left-with-text-right .container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-left-with-text-right .image{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-left-with-text-right .image img{
+    width: 450px;   
+}
+
+.image-left-with-text-right .text{
+    width: 50%;
+    margin-left: 10px;
+}
+.image-left-with-text-right .text h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 29px;
+}
+.image-left-with-text-right .text h3{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+/* image-left-with-text-right */
+
+
+/* convid */
+
+.convid{
+    width: 100%;
+    padding: 30px 0;    
+}
+.convid .container > .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.covid .font{
+    font-size: 16px;
+    font-weight: 700;
+}
+.convid .tag{
+    width: 238px;
+    height: 28px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #BF3636;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.convid .list-data-covid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.convid .list-data-covid .covid-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.convid .list-data-covid .covid-item:nth-child(0n + 2){
+    border-left: 3px solid #6A36D9;
+    border-right: 3px solid #6A36D9;
+    padding: 0 30px;
+    margin: 0 30px;
+}
+
+.convid .list-data-covid .covid-item .title{
+    font-size: 19px;
+    font-weight: 700;    
+    margin-bottom: 5px;
+}
+
+.convid .list-data-covid .covid-item .result{
+    font-size: 40px;
+    font-weight: 700;
+    color: #6A36D9;
+}
+
+/* convid */
+
+
+/* list-card */
+
+.list-card{
+    width: 100%;
+    height: 488px;
+    padding: 70px 0;
+}
+.list-card .container > h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+.list-card .card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.list-card .card-container .card-item{
+    width: 268px;
+    height: 268px;
+    border: 1px solid #762EA6;
+    border-radius: 12px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+.list-card .card-container .card-item:nth-child(0n + 2){
+    margin: 0 50px;
+}
+.list-card .card-container .card-item .rashtag{
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+.list-card .card-container .card-item .title-card-item{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+.list-card .card-container .card-item .context-card-item{
+    font-size: 19px;
+    font-weight: 400;
+    width: 90%;
+}
+
+.btn-card-theme{
+    width: 228px !important;
+    height: 45px !important;
+    border-radius: 30px !important;
+    border: 1px solid #762EA6 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: auto;
+}
+
+/* list-card */

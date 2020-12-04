@@ -52,12 +52,3 @@
 .btn-theme:hover{
     background-color: #A993BF !important;
 }
-.btn-card-theme{
-    width: 228px !important;
-    height: 45px !important;
-    border-radius: 30px !important;
-    border: 1px solid #762EA6 !important;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-}
