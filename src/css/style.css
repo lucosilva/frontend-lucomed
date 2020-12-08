@@ -1,5 +1,6 @@
 main{
-    width: 100%;    
+    width: 100%;   
+    max-width: 1920px; 
 }
 
 
@@ -7,6 +8,7 @@ main{
 
 header{
     width: 100%;
+    max-width: 1920px;
     height: 205px;   
     position: fixed; 
 }
@@ -95,6 +97,7 @@ header .logo{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row-reverse;
 }
 .image-right-with-text-left .image{
     width: 50%;   
@@ -166,23 +169,23 @@ header .logo{
 /* image-left-with-text-right */
 
 
-/* convid */
+/* covid */
 
-.convid{
+.covid{
     width: 100%;
     padding: 30px 0;    
 }
-.convid .container > .container{
+.covid .container > .container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.covid .font{
+.covid .fonte{
     font-size: 16px;
     font-weight: 700;
 }
-.convid .tag{
+.covid .tag{
     width: 238px;
     height: 28px;
     border-radius: 30px;
@@ -194,40 +197,40 @@ header .logo{
     font-weight: 400;
 }
 
-.convid .list-data-covid{
+.covid .list-data-covid{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 20px 0;
 }
 
-.convid .list-data-covid .covid-item{
+.covid .list-data-covid .covid-item{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.convid .list-data-covid .covid-item:nth-child(0n + 2){
+.covid .list-data-covid .covid-item:nth-child(0n + 2){
     border-left: 3px solid #6A36D9;
     border-right: 3px solid #6A36D9;
     padding: 0 30px;
     margin: 0 30px;
 }
 
-.convid .list-data-covid .covid-item .title{
+.covid .list-data-covid .covid-item .title{
     font-size: 19px;
     font-weight: 700;    
     margin-bottom: 5px;
 }
 
-.convid .list-data-covid .covid-item .result{
+.covid .list-data-covid .covid-item .result{
     font-size: 40px;
     font-weight: 700;
     color: #6A36D9;
 }
 
-/* convid */
+/* covid */
 
 
 /* list-card */
@@ -237,10 +240,10 @@ header .logo{
     padding: 70px 0;
     border: 1px solid #8836BF;
 }
-.list-card .container > h2{
-    font-size: 48px;
-    font-weight: 700;
-}
+    .list-card .container > h2{
+        font-size: 48px;
+        font-weight: 700;
+    }
 .list-card .card-container{
     display: flex;
     align-items: center;
@@ -374,6 +377,5 @@ footer .social .list-social img{
 }
 footer .social .app img{
     width: 125px;
-    height: 34px;
 }
 
