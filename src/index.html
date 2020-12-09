@@ -10,26 +10,45 @@
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
     <title>Lucomed | Home</title>
 </head>
 
 <body>
     <main>
-        <header>
+        <header id="header-up">
             <div class="container ">
                 <nav class="menu-desktop">
                     <ul>
-                        <li><a class="text-white" href="#">covid-19</a></li>
-                        <li><a class="text-white" href="#">consultas</a></li>
-                        <li><a class="text-white" href="#">Exames</a></li>
-                        <li><a class="text-white" href="#">Doação</a></li>
-                        <li><a class="text-white" href="#">Blog</a></li>
+                        <li><a class="text-white" href="#covid">covid-19</a></li>
+                        <li><a class="text-white" href="#consulta">consultas</a></li>
+                        <li><a class="text-white" href="#consulta">Exames</a></li>
+                        <li><a class="text-white" href="#doar">Doação</a></li>
+                        <li><a class="text-white" href="#vacina">Blog</a></li>
                         <span></span>
                     </ul>
                 </nav>
+
+                <div class="hamburguer">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+
+                <div class="menu-mobile">
+                    <div class="container">
+                        <ul>
+                            <li><a href="#covid">covid-19</a></li>
+                            <li><a href="#consulta">consultas</a></li>
+                            <li><a href="#consulta">Exames</a></li>
+                            <li><a href="#doar">Doação</a></li>
+                            <li><a href="#vacina">Blog</a></li>
+                            <span></span>
+                        </ul>
+                    </div>
+                </div>
                 <div class="logo">
-                    <img src="#" alt="logo">
+                    <span>Lucomed</span>
+                    <img src="./assets/logo/logo.png" alt="logo">
                 </div>
             </div>
         </header>
@@ -47,7 +66,7 @@
             </div>
         </div>
 
-        <section class="covid">
+        <section id="covid" class="covid">
             <div class="container">
 
                 <div class="tag text-white">
@@ -99,7 +118,7 @@
         </section>
 
         <!-- consulta -->
-        <section class="image-left-with-text-right color-Theme1">
+        <section id="consulta" class="image-left-with-text-right color-Theme1">
             <div class="container">
                 <div class="image">
                     <img src="./assets/consulta/undraw_App_installation_re_h36x.svg" alt="imagem">
@@ -120,7 +139,7 @@
         </section>
 
         <!-- vacinação -->
-        <section class="image-right-with-text-left bg-Theme1">
+        <section id="vacina" class="image-right-with-text-left bg-Theme1">
             <div class="container">
                 <div class="image">
                     <img src="./assets/clube-vacinacao/undraw_team_ih79.svg" alt="imagem">
@@ -138,7 +157,8 @@
             </div>
         </section>
 
-        <section class="list-card">
+        <!-- doação -->
+        <section id="doar" class="list-card">
             <div class="container">
                 <h2 class="color-Theme3">doação de sangue e plaquetas</h2>
                 <div class="card-container">
@@ -179,15 +199,15 @@
                 <div>
                     <div class="menu">
                         <div class="logo">
-                            <img src="#" alt="logo">
+                            <img src="./assets/logo/logo.png" alt="logo">
                         </div>
                         <nav>
                             <ul>
-                                <li><a href="#">covid-19</a></li>
-                                <li><a href="#">consultas</a></li>
-                                <li><a href="#">Exames</a></li>
-                                <li><a href="#">Doação</a></li>
-                                <li><a href="#">Blog</a></li>
+                                <li><a href="#covid">covid-19</a></li>
+                                <li><a href="#consulta">consultas</a></li>
+                                <li><a href="#consulta">Exames</a></li>
+                                <li><a href="#doar">Doação</a></li>
+                                <li><a href="#vacina">Blog</a></li>                                
                             </ul>
                         </nav>
                     </div>
@@ -240,6 +260,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
+
+    <script src="./js/index.js"></script>
 
 </body>
 

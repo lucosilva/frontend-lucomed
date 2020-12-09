@@ -2,7 +2,8 @@
 
 * {
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;    
+    font-family: 'Roboto', sans-serif;   
+    scroll-behavior: smooth; 
   }
 
   html,
@@ -14,12 +15,21 @@
     width: 100%;
   }
   
+  label{
+      margin: 0 !important;
+  }
   a {
     color: inherit;
   } 
   ul, li{
     list-style: none;
   }
+
+  li a{
+    white-space: nowrap;
+  }
+
+
 
 .color-Theme1{
     color: #762EA6 !important;

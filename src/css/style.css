@@ -1,3 +1,5 @@
+
+
 main{
     width: 100%;   
     max-width: 1920px; 
@@ -42,11 +44,26 @@ header nav ul li a{
     font-weight: 400;
 }
 
-header .logo{
+ .logo{
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+ .logo img{
+    width: 40px;
+    margin-bottom: 15px;   
+    border: 1px solid #fff;
+    border-radius: 50% 
+}
+
+ .logo span{
+    display: none;
+}
+.menu-mobile{
+    display: none;
+}
+
 
 /* header */
 

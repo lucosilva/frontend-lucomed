@@ -1,4 +1,9 @@
 @media(max-width: 992px){
+    
+    section{
+        padding: 90px 0 !important;
+    }
+
     .btn-theme{
         width: 100% !important;
     }
@@ -6,11 +11,102 @@
 
     /* header */
     header{
-        height: 100px;   
+        height: 80px;
+        background: #A993BF;   
+    }
+
+    header .logo{
+        z-index: 999;
+        padding-right: 6px;
+    }
+    
+    header .logo img{
+        width: 40px;
+        margin-bottom: 5px;
+    }
+    
+    header .logo span{
+        display: initial;
+        font-size: 13px;
+        font-weight: 700;
+        color: #fff;
+        position: relative;
+        left: 48px;
+        bottom: -25px;
+    }
+    header .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
     .menu-desktop{
         display: none;
     }
+    .hamburguer{
+        width: 40px;
+        height: 40px;
+        margin: 0 auto 0 0;
+        padding: 6px;
+        display: flex;
+        flex-direction: column;        
+    }
+    .hamburguer div{
+        width: 100%;
+        height: 4px;
+        background: #762EA6; 
+        border-radius: 12px;
+        margin: auto 0;
+        z-index: 9999;
+        transition: .4s ease-in;
+    }
+    .menu-mobile{
+        display: initial;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        padding: 10px;
+        top: -1000px;
+        left: 0;
+        background: #A993BF;
+        border: 1px solid #762EA6;
+        transition: .4s ease-in;
+        z-index: 1;
+    }
+    .menu-mobile ul{
+        width: 100%;
+        height: calc(100% - 80px);
+        margin-top: 80px;
+        padding: 0px;
+        border-radius: 13px;
+    }
+    .menu-mobile ul li{
+        border-bottom: 1px solid #762EA6;   
+        margin-top: 10px;
+        padding-bottom: 4px;
+        width: fit-content;
+    }
+    .menu-mobile ul li a{
+        color: #ffffff;
+        font-size: 19px;
+
+    }
+
+    .openMenu{
+        top: 0 !important;
+    }     
+    .animateOpemMenu div:nth-child(0n + 2) {
+        opacity: 0;
+    }
+    .animateOpemMenu div:first-child{
+        transform: rotate(135deg);
+        background: #fff;
+    } 
+    .animateOpemMenu div:last-child{
+        transform: rotate(45deg);
+        background: #fff;
+    } 
+    
+
     /* header */
 
 
@@ -32,7 +128,7 @@
     }
     .main-banner h1{
         width: 80%;
-        font-size: 60px;
+        font-size: 50px;
         text-align: start;
         margin-bottom: 30px;
         color: #fff !important;
