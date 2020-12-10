@@ -5,14 +5,18 @@ main{
     max-width: 1920px; 
 }
 
+section{
+    padding: 115px 0 !important;
+}
 
 /* header */
 
 header{
     width: 100%;
     max-width: 1920px;
-    height: 205px;   
+    height: 110px;   
     position: fixed; 
+    transition: .4s ease-in;
 }
 header > div {
     display: flex;
@@ -24,6 +28,7 @@ header nav {
     align-items: center;    
 }
 header nav ul{
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,7 +57,6 @@ header nav ul li a{
 
  .logo img{
     width: 40px;
-    margin-bottom: 15px;   
     border: 1px solid #fff;
     border-radius: 50% 
 }

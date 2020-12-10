@@ -66,6 +66,7 @@
             </div>
         </div>
 
+        <!-- covid  -->
         <section id="covid" class="covid">
             <div class="container">
 
@@ -78,20 +79,20 @@
                         <div class="covid-item">
                             <img src="./assets/covid/cruz-pq.png" alt="">
                             <span class="title">Mortes</span>
-                            <span class="result ">173.165</span>
+                            <span class="result" id="mortes">0</span>
                         </div>
                         <div class="covid-item">
                             <img src="./assets/covid/coracao.png" alt="">
                             <span class="title">Recuperados</span>
-                            <span class="result">5.601.804</span>
+                            <span class="result" id="recuperados">0</span>
                         </div>
                         <div class="covid-item">
                             <img src="./assets/covid/br.png" alt="">
                             <span class="title">Total de casos</span>
-                            <span class="result">6.336.278</span>
+                            <span class="result" id="casos">0</span>
                         </div>
                     </div>
-                    <span class="fonte">casos referente ao Brasil, fonte: covid.saude.gov.br</span>
+                    <span class="fonte">casos referente ao Brasil, fonte: covid19 brazil api (dados não precisos)</span>
                 </div>
             </div>
 
@@ -262,6 +263,7 @@
         crossorigin="anonymous"></script>
 
     <script src="./js/index.js"></script>
+    <script src="./js/services/api.js"></script>
 
 </body>
 
