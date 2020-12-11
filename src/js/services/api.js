@@ -1,9 +1,10 @@
-fetch('https://covid19-brazil-api.now.sh/api/report/v1/brazil')
-    .then((resp) => {
-        return resp.json();
-    }).then(({ data }) => {
 
-        $('#mortes').text(data.deaths)
-        $('#recuperados').text(data.recovered)
-        $('#casos').text(data.cases)
-    })
+async function respConvidAPI(){
+    try {
+        const response = await fetch('https://covid19-brazil-api.now.sh/api/report/v1/brazil');
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.log(error)     
+    }
+}
