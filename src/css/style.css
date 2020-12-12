@@ -313,8 +313,87 @@ header nav ul li a{
 
 /* list-card */
 
+
+
+/* targe */
+.targe-position{
+    bottom: 0 !important;
+}
+.targe-container{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    bottom: -70px;
+    z-index: 9999;
+    transition: .4s ease-in;
+}
+
+.targe-container:hover{
+    background-color: #000000 !important;
+  }
+
+.targe-container .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.targe-container .container span{
+    color: #ffffff;
+}   
+.targe-container .container > div{
+    width: 30px;
+    height: 30px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.targe-container .container img{
+    width: 16px;
+}
+/* targe */
+
+
+
+/* btn-up */
+
+.btn-up{
+    width: 45px;
+    height: 45px;
+    border: 2px solid #fff;    
+    border-radius: 50%;
+    position: fixed;
+    z-index: 999;
+    bottom: 100px;
+    right: 35px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+    transition: .4s ease-in;
+}
+.btn-up img{
+    width: 25.5px;
+    transform: rotate(-90deg);
+}
+
+.btn-up-none{
+    opacity: 0;
+}
+/* btn-up */
+
+
+
+
 footer{
-    padding: 50px 0;
+    padding: 50px 0 90px 0;
 }
 
 footer .container > div{
@@ -399,4 +478,7 @@ footer .social .list-social img{
 footer .social .app img{
     width: 125px;
 }
+
+
+
 

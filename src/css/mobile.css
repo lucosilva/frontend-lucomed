@@ -65,7 +65,7 @@
         width: 100%;
         height: 100vh;
         padding: 10px;
-        top: -1000px;
+        top: -1100px;
         left: 0;
         background: #A993BF;
         border: 1px solid #762EA6;
@@ -236,6 +236,13 @@
 
     /* list-card */
 
+
+    /* btn-up */
+
+    .btn-up{
+        right: 25px !important;
+    }
+    /* btn-up */
 
 
     /* footer */

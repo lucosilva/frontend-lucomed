@@ -10,16 +10,26 @@ $('header a').click(() => {
 
 
 $(window).scroll(() => {
-    if ($(window).scrollTop() > 150) {
-        $('header').addClass('bg-Theme2')
+    if ($(window).scrollTop() > 300) {
+        $('header').addClass('bg-Theme2')        
+        $('.targe-container').addClass('targe-position')
+        $('.btn-up').removeClass('btn-up-none')
     } else {
-        $('header').removeClass('bg-Theme2')
+        $('header').removeClass('bg-Theme2')        
+        $('.targe-container').removeClass('targe-position')
+        $('.btn-up').addClass('btn-up-none')
     }
 })
 
 
+$('.btn-up').click(()=>{
+    $(window).scrollTop(0);  
+})
+
 // formatação de numeros com pontuação até "999.999.999", importante ser string.
 function formatNumber(num) {
+    num = num.toString();
+    
     const countNum = num.length;
 
     let result = '';
@@ -44,11 +54,26 @@ function formatNumber(num) {
 
 async function printDataCovid() {
 
+    function reverseDate(s){
+        var dateString = s.toString();
+        dateString = dateString.slice(0,10);
+
+        const day = dateString.slice(8,10)
+        const mth = dateString.slice(5,7)
+        const yr = dateString.slice(0,4)
+
+        return `${day}/${mth}/${yr}`;
+    }
+
     const { data } = await respConvidAPI();
 
-    $('#mortes').text(formatNumber(data.deaths.toString()))
-    $('#recuperados').text(formatNumber(data.recovered.toString()))
-    $('#casos').text(formatNumber(data.cases.toString()))
+    const totalCase = data.deaths + data.recovered + data.cases;
+    const dataUpdate = reverseDate(data.updated_at);
+        
+    $('#mortes').text(formatNumber(data.deaths))
+    $('#recuperados').text(formatNumber(data.recovered))
+    $('#casos').text(formatNumber(totalCase))
+    $('.dateUpdate').text(`(ultima atualização em: ${dataUpdate})`)
 }
 
 function init() {
