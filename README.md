@@ -1,3 +1,5 @@
+ # frontend-lucomed
+ 
  What language do you want to read?
  <br>
  Qual idioma você prefere ler?
@@ -5,18 +7,68 @@
 
 <details>
 <summary>English <img width="16px" src="https://user-images.githubusercontent.com/59120094/102106902-e60d6080-3e0f-11eb-8528-ccc9c4fd3030.png"></img> </summary>
+
+## Introduction
+
+This project is the front end of home, it's can be used for hospital services or medical clinic.
+<br>
+The name "Lucomed", is fictitious, was formed because of the initials of the name of the author Lucas Correia.
+<br>
+<br>
+(veja a demonstração do projeto - hiperlink)
+
+## Install
+
+for some features to work perfectly, it's recommended to use the "http-server", present as development on package.json
+
+```
+npm install
+```
+script start
+```
+npm start
+```
 <br>
 
-# frontend-lucomed
-This is how you dropdown.
-</details>
+## Components
 
+seven components were used the page:
+
+* Main Banner, with an action button and image in the background, in the mobile version without image.
+
+* Covid, a module that shows data of covid in brazil.
+
+* Session of image with text.
+
+* Session of image with text, inverted.
+
+* Session of with three cards in the center.
+
+* Targe, remarketing button, fixed below the page.
+
+* Footer.
+
+## Spec
+
+The spec was created in figma and is located in the "content" folder in the project with the color palette and textual content.
+
+## Other Resources
+
+* Covid component, geting data the "covid19 brazil api" API.
+know more how to implement and documentation the API, (in this repository - "hyperlink").
+
+## Used library
+
+* Bootstrap, grid. (CDN)
+* Jquery. (CDN)
+
+</details>
 
 <details>
 <summary>Portugues <img width="16px"  src="https://user-images.githubusercontent.com/59120094/102106566-80b96f80-3e0f-11eb-8fa3-5248a34b61e3.png"></img> </summary>
-<br>
 
-# frontend-lucomed
+## Introdução
+
 Este projeto é o front-end de um home, pode ser usada para serviços hospitalares ou clinica medica.
 <br>
 O nome "Lucomed", é fictício, foi formado pelas as inicias do nome de quem a produziu, o autor Lucas Correia.
