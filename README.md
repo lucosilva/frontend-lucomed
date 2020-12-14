@@ -52,15 +52,17 @@ seven components were used the page:
 
 The spec was created in figma and is located in the "content" folder in the project with the color palette and textual content.
 
-## Other Resources
-
-* Covid component, geting data the "covid19 brazil api" API.
-know more how to implement and documentation the API, (in this repository - "hyperlink").
-
 ## Used library
 
 * Bootstrap, grid. (CDN)
 * Jquery. (CDN)
+
+## Other Resources
+
+* Covid component, geting data the "covid19 brazil api" API. <br>
+know more how to implement and documentation the API, (in this repository - "hyperlink").
+
+
 
 </details>
 
@@ -110,14 +112,15 @@ foi ultilizado sete componentes ao longo da pagina:
 
 A spec foi criada no figma e está disponivel na pasta "content" no projeto com a paleta de cores e conteudo textual.
 
-## Outros recursos
-
-* Componente Covid, recebe dados através da API da "covid19 brazil api".
-Para entender mais detalhes sobre como implementar e documentação da API veja (neste repositório-"hiperlink").
-
 ## Bibliotécas usadas
 
 * Bootstrap, foi ultilizada a grid. (CDN)
 * Jquery. (CDN)
+
+## Outros recursos
+
+* Componente Covid, recebe dados através da API da "covid19 brazil api". <br>
+Para entender mais detalhes sobre como implementar e documentação da API veja (neste repositório-"hiperlink").
+
 
 </details>
