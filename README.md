@@ -1,5 +1,9 @@
  # frontend-lucomed
  
+<center><img style="text-alight: center" src="https://user-images.githubusercontent.com/59120094/102135785-3a780680-3e37-11eb-9699-89333beda7e2.gif">
+ </img></center>
+ 
+ 
  What language do you want to read?
  <br>
  Qual idioma você prefere ler?
@@ -14,8 +18,8 @@ This project is the front end of home, it's can be used for hospital services or
 <br>
 The name "Lucomed", is fictitious, was formed because of the initials of the name of the author Lucas Correia.
 <br>
-<br>
-(veja a demonstração do projeto - hiperlink)
+
+[Demosntration](https://frontend-lucomed.vercel.app/)
 
 ## Install
 
@@ -75,8 +79,8 @@ Este projeto é o front-end de um home, pode ser usada para serviços hospitalar
 <br>
 O nome "Lucomed", é fictício, foi formado pelas as inicias do nome de quem a produziu, o autor Lucas Correia.
 <br>
-<br>
-(veja a demonstração do projeto - hiperlink)
+
+[veja a demonstração do projeto](https://frontend-lucomed.vercel.app/)
 
 ## Instalação
 
