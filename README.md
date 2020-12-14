@@ -26,7 +26,7 @@ npm install
 ```
 script start
 ```
-npm start
+npm server-dev
 ```
 <br>
 
@@ -86,7 +86,7 @@ npm install
 ```
 script de inicialização
 ```
-npm start
+npm server-dev
 ```
 <br>
 
