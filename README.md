@@ -1,8 +1,13 @@
  # frontend-lucomed
  
-<center><img style="text-alight: center" src="https://user-images.githubusercontent.com/59120094/102135785-3a780680-3e37-11eb-9699-89333beda7e2.gif">
- </img></center>
- 
+<p align="center"><img src="https://user-images.githubusercontent.com/59120094/102135785-3a780680-3e37-11eb-9699-89333beda7e2.gif">
+ </img>
+</p> 
+<p align="center">
+ <img width="200px" src="https://user-images.githubusercontent.com/59120094/102145995-0278bf80-3e47-11eb-96db-35a9e1e5dfe3.jpg"></img>
+ <img width="202px" src="https://user-images.githubusercontent.com/59120094/102146060-20debb00-3e47-11eb-8860-5b7f32663b91.jpg"></img>
+ <img width="190px" src="https://user-images.githubusercontent.com/59120094/102146093-2b995000-3e47-11eb-88ca-2c88d1be8381.jpg"></img>
+</p>
  
  What language do you want to read?
  <br>
