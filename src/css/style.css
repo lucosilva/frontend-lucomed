@@ -103,6 +103,10 @@ header nav ul li a{
     text-align: end;
     margin-bottom: 50px;
 }
+
+.main-banner a:hover{
+    text-decoration: none;
+} 
 /* main banner */
 
 
