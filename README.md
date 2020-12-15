@@ -9,9 +9,11 @@
  <img width="190px" src="https://user-images.githubusercontent.com/59120094/102146093-2b995000-3e47-11eb-88ca-2c88d1be8381.jpg"></img>
 </p>
  
- What language do you want to read?
+ ***
+ 
+ <img width="16px" src="https://user-images.githubusercontent.com/59120094/102106902-e60d6080-3e0f-11eb-8528-ccc9c4fd3030.png"></img> What language do you want to read?
  <br>
- Qual idioma você prefere ler?
+ <img width="16px"  src="https://user-images.githubusercontent.com/59120094/102106566-80b96f80-3e0f-11eb-8fa3-5248a34b61e3.png"></img> Qual idioma você prefere ler?
  
 
 <details>
