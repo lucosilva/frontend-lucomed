@@ -82,7 +82,7 @@ Este projeto é o front-end de uma homepage, pode ser usada para serviços hospi
 O nome "Lucomed", é fictício, foi formado pelas as inicias do desenvolvedor de quem à produziu, o autor Lucas Correia.
 <br>
 
-[veja a demonstração do projeto](https://frontend-lucomed.vercel.app/)
+<a href="https://frontend-lucomed.vercel.app/" target="_blank">veja a demonstração do projeto</a>
 
 ## Instalação
 
