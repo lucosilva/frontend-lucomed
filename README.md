@@ -72,6 +72,11 @@ Covid component, collect data through "covid19 brazil api". To understand more d
 * Jquery. (CDN)
 
 
+## Lighthouse chrome
+
+<img width="600" src="https://user-images.githubusercontent.com/59120094/102157555-76729200-3e5e-11eb-85eb-bb253eb2da4c.PNG"/>
+
+
 </details>
 
 <details>
@@ -129,6 +134,11 @@ A spec foi criada no figma e está disponivel na pasta "content" no projeto com 
 
 * Componente Covid, recebe dados através da API da "covid19 brazil api". <br>
 Para entender mais detalhes sobre como implementar e documentação da API veja (neste repositório-"hiperlink").
+
+## Lighthouse chrome
+
+<img width="600" src="https://user-images.githubusercontent.com/59120094/102157555-76729200-3e5e-11eb-85eb-bb253eb2da4c.PNG"/>
+
 
 
 </details>
