@@ -19,9 +19,8 @@
 
 ## Introduction
 
-This project is the front end of home, it's can be used for hospital services or medical clinic.
-<br>
-The name "Lucomed", is fictitious, was formed because of the initials of the name of the author Lucas Correia.
+This is a Front-end project of a homepage that may be used for medical services or hospitals. <br>
+The name "Lucomed", it's fictional, was formed for the initials of the name of whom developed this website, the author Lucas Correia
 <br>
 
 [Demosntration](https://frontend-lucomed.vercel.app/)
@@ -41,36 +40,34 @@ npm server-dev
 
 ## Components
 
-seven components were used the page:
+seven components were used throughout the development of the page:
 
-* Main Banner, with an action button and image in the background, in the mobile version without image.
+* Main banner, with action button on the right corner and a background image, on mobile version without image.
 
-* Covid, a module that shows data of covid in brazil.
+* Covid, one module that show current data about Covid in Brazil.
 
-* Session of image with text.
+* Component with an image on the left and a text with button on the right
 
-* Session of image with text, inverted.
+* Component with an imagem on the right and a text with button on the left
 
-* Session of with three cards in the center.
+* Component with three cards on the center
 
-* Targe, remarketing button, fixed below the page.
+* Remarketing stripe (button) reinforcing the main action click on the page, fixed in the end of the page.
 
-* Footer.
+* Footer
 
 ## Spec
 
-The spec was created in figma and is located in the "content" folder in the project with the color palette and textual content.
+The Spec was created on Figma it's available in the folder "content" on the project, with color pallet e text content.
+
+## Other Resources
+
+Covid component, collect data through "covid19 brazil api". To understand more details about implemetation and documentation of API click here
 
 ## Used library
 
 * Bootstrap, grid. (CDN)
 * Jquery. (CDN)
-
-## Other Resources
-
-* Covid component, geting data the "covid19 brazil api" API. <br>
-know more how to implement and documentation the API, (in this repository - "hyperlink").
-
 
 
 </details>
@@ -80,9 +77,9 @@ know more how to implement and documentation the API, (in this repository - "hyp
 
 ## Introdução
 
-Este projeto é o front-end de um home, pode ser usada para serviços hospitalares ou clinica medica.
+Este projeto é o front-end de uma homepage, pode ser usada para serviços hospitalares ou clinica medica.
 <br>
-O nome "Lucomed", é fictício, foi formado pelas as inicias do nome de quem a produziu, o autor Lucas Correia.
+O nome "Lucomed", é fictício, foi formado pelas as inicias do desenvolvedor de quem à produziu, o autor Lucas Correia.
 <br>
 
 [veja a demonstração do projeto](https://frontend-lucomed.vercel.app/)
@@ -107,11 +104,11 @@ foi ultilizado sete componentes ao longo da pagina:
 
 * Covid, um modulo que mostra dados atuais da covid no brasil.
 
-* Sessão com imagem da esquerda e texto com botão na direita.
+* Módulo com imagem da esquerda e texto com botão na direita.
 
-* Sessão com imagem da direita e texto com botão na esquerda.
+* Módulo com imagem da direita e texto com botão na esquerda.
 
-* Sessão com três cards ao centro.
+* Módulo com três cards ao centro.
 
 * Tarja(botão) de remarketing reforçando o clique de ação principal da pagina, fixa em baixo da pagina.
 
@@ -121,7 +118,7 @@ foi ultilizado sete componentes ao longo da pagina:
 
 A spec foi criada no figma e está disponivel na pasta "content" no projeto com a paleta de cores e conteudo textual.
 
-## Bibliotécas usadas
+## Bibliotecas usadas
 
 * Bootstrap, foi ultilizada a grid. (CDN)
 * Jquery. (CDN)
