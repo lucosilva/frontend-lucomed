@@ -27,24 +27,24 @@ header nav {
     display: flex;
     align-items: center;    
 }
-header nav ul{
+header nav .ul{
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: auto;
 }
-header nav ul span{
+header nav .ul span{
     width: 3px;
     height: 40px;
     background: #ffffff;
     margin-right: 42px;
 }
 
-header nav ul li{
+header nav .ul .li{
     margin-right: 80px;
 }
-header nav ul li a{
+header nav .ul .li a{
     font-size: 24px;
     font-weight: 400;
 }
@@ -416,13 +416,13 @@ footer .container > div > div{
 footer .menu nav{
     padding-top: 5px;
 }
-footer .menu ul{
+footer .menu .ul{
     padding: 0;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-row-gap: 20px;
 }
-footer .menu ul li{
+footer .menu .ul .li{
     margin-bottom: 3px;
 }
 footer .menu a{

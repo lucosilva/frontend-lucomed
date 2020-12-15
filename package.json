@@ -4,7 +4,7 @@
   "description": "",
   "main": "./src/index.html",
   "scripts": {
-    "server-dev": "http-server -c-1"
+    "start": "http-server -c-1"
   },
   "keywords": [],
   "author": "Lucas Correia",

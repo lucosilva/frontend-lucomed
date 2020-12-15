@@ -72,20 +72,20 @@
         transition: .4s ease-in;
         z-index: 1;
     }
-    .menu-mobile ul{
+    .menu-mobile .ul{
         width: 100%;
         height: calc(100% - 80px);
         margin-top: 80px;
         padding: 0px;
         border-radius: 13px;
     }
-    .menu-mobile ul li{
+    .menu-mobile .ul .li{
         border-bottom: 1px solid #762EA6;   
         margin-top: 10px;
         padding-bottom: 4px;
         width: fit-content;
     }
-    .menu-mobile ul li a{
+    .menu-mobile .ul .li a{
         color: #ffffff;
         font-size: 19px;
 

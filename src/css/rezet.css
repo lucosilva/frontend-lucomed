@@ -22,11 +22,11 @@
     color: inherit;
     text-decoration: none;
   }
-  ul, li{
+  .ul, .li{
     list-style: none;
   }
 
-  li a{
+  .li a{
     white-space: nowrap;
   }
 
