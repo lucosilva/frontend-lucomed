@@ -64,7 +64,7 @@ The Spec was created on Figma it's available in the folder "content" on the proj
 
 ## Other Resources
 
-Covid component, collect data through "covid19 brazil api". To understand more details about implemetation and documentation of API click here
+Covid component, collect data through "covid19 brazil api". To understand more details about implemetation and documentation of API [click here](https://github.com/lucosilva/api-getdata-covid19)
 
 ## Used library
 
@@ -133,7 +133,7 @@ A spec foi criada no figma e está disponivel na pasta "content" no projeto com 
 ## Outros recursos
 
 * Componente Covid, recebe dados através da API da "covid19 brazil api". <br>
-Para entender mais detalhes sobre como implementar e documentação da API veja (neste repositório-"hiperlink").
+Para entender mais detalhes sobre como implementar e documentação da API veja [neste repositório](https://github.com/lucosilva/api-getdata-covid19).
 
 ## Lighthouse chrome
 
