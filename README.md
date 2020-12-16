@@ -25,7 +25,7 @@ This is a Front-end project of a homepage that may be used for medical services 
 The name "Lucomed", it's fictional, was formed for the initials of the name of whom developed this website, the author Lucas Correia
 <br>
 
-[Demosntration](https://frontend-lucomed.vercel.app/)
+[Demosntration](https://frontend-lucomed-9nowevx4a.vercel.app/)
 
 ## Install
 
@@ -64,12 +64,17 @@ The Spec was created on Figma it's available in the folder "content" on the proj
 
 ## Other Resources
 
-Covid component, collect data through "covid19 brazil api". To understand more details about implemetation and documentation of API click here
+Covid component, collect data through "covid19 brazil api". To understand more details about implemetation and documentation of API [click here](https://github.com/lucosilva/api-getdata-covid19)
 
 ## Used library
 
 * Bootstrap, grid. (CDN)
 * Jquery. (CDN)
+
+
+## Lighthouse chrome
+
+<img width="600" src="https://user-images.githubusercontent.com/59120094/102157555-76729200-3e5e-11eb-85eb-bb253eb2da4c.PNG"/>
 
 
 </details>
@@ -84,7 +89,7 @@ Este projeto é o front-end de uma homepage, pode ser usada para serviços hospi
 O nome "Lucomed", é fictício, foi formado pelas as inicias do desenvolvedor de quem à produziu, o autor Lucas Correia.
 <br>
 
-<a href="https://frontend-lucomed.vercel.app/" target="_blank">veja a demonstração do projeto</a>
+<a href="https://frontend-lucomed-9nowevx4a.vercel.app/" target="_blank">veja a demonstração do projeto</a>
 
 ## Instalação
 
@@ -128,7 +133,12 @@ A spec foi criada no figma e está disponivel na pasta "content" no projeto com 
 ## Outros recursos
 
 * Componente Covid, recebe dados através da API da "covid19 brazil api". <br>
-Para entender mais detalhes sobre como implementar e documentação da API veja (neste repositório-"hiperlink").
+Para entender mais detalhes sobre como implementar e documentação da API veja [neste repositório](https://github.com/lucosilva/api-getdata-covid19).
+
+## Lighthouse chrome
+
+<img width="600" src="https://user-images.githubusercontent.com/59120094/102157555-76729200-3e5e-11eb-85eb-bb253eb2da4c.PNG"/>
+
 
 
 </details>
