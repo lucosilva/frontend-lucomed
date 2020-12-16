@@ -2,7 +2,7 @@
   "name": "frontend-lucomed",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/index.html",
+  "main": "./src/frontend/lucomed/index.html",
   "scripts": {
     "start": "http-server -c-1"
   },
