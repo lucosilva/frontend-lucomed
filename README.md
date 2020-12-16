@@ -25,7 +25,7 @@ This is a Front-end project of a homepage that may be used for medical services 
 The name "Lucomed", it's fictional, was formed for the initials of the name of whom developed this website, the author Lucas Correia
 <br>
 
-[Demosntration](https://frontend-lucomed.vercel.app/)
+[Demosntration](https://frontend-lucomed-9nowevx4a.vercel.app/)
 
 ## Install
 
@@ -89,7 +89,7 @@ Este projeto é o front-end de uma homepage, pode ser usada para serviços hospi
 O nome "Lucomed", é fictício, foi formado pelas as inicias do desenvolvedor de quem à produziu, o autor Lucas Correia.
 <br>
 
-<a href="https://frontend-lucomed.vercel.app/" target="_blank">veja a demonstração do projeto</a>
+<a href="https://frontend-lucomed-9nowevx4a.vercel.app/" target="_blank">veja a demonstração do projeto</a>
 
 ## Instalação
 
